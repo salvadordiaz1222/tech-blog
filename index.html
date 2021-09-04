@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tech Blog</title>
+    <link rel="stylesheet" href="./public/css/jass.css" />
+    <link rel="stylesheet" href="./public/css/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header class="header navbar-light" style="background-color: #e3f2fd">
+      <nav class="nav">
+        <a class="nav-link active" href="#">Home</a>
+        <a class="nav-link" href="#">Dashboard</a>
+        <a class="nav-link" href="#">Login</a>
+      </nav>
+      <h1 class="header--heading--primary">The Tech Blog</h1>
+    </header>
+    <!-- The post of each author will be in this card-->
+    <div class="card main main--flex">
+      <div class="container card-header">
+        <div class="row">
+          <div class="col-sm">Featured</div>
+          <div class="col-sm">Author</div>
+        </div>
+      </div>
+      <div class="card-body">This is some text within a card body.</div>
+      <button type="button" class="btn btn-primary btn-sm">Add Comment</button>
+    </div>
+    <!-- add comment to a post -->
+    <div class="card main main--flex">
+      <div class="container card-header"></div>
+      <h4>Comment</h4>
+      <textarea class="form-control" aria-label="With textarea"></textarea>
+      <button type="button" class="btn btn-secondary">Submit</button>
+    </div>
+    <!-- The login-->
+    <div class="card main main--flex">
+      <h5 class="card-header">Login</h5>
+      <div class="form-group">
+        <label for="UsernameId">Username</label>
+        <input
+          type="Username"
+          class="form-control"
+          id="UsernameId"
+          placeholder="Enter Username"
+        />
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Password</label>
+        <input
+          type="password"
+          class="form-control"
+          id="exampleInputPassword1"
+          placeholder="Password"
+        />
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+      <div>
+        <a href="url">Sign up instead</a>
+      </div>
+    </div>
+    <!-- The Sign Up-->
+    <div class="card main main--flex">
+      <h5 class="card-header">Sign Up</h5>
+      <div class="form-group">
+        <label for="UsernameId">Username</label>
+        <input
+          type="Username"
+          class="form-control"
+          id="UsernameId"
+          placeholder="Enter Username"
+        />
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Password</label>
+        <input
+          type="password"
+          class="form-control"
+          id="exampleInputPassword1"
+          placeholder="Password"
+        />
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+      <div>
+        <a href="url">Login instead</a>
+      </div>
+    </div>
+    <!-- Create new post -->
+    <div class="card main main--flex">
+      <h5 class="card-header">Create New Post</h5>
+      <div class="card-body">
+        <h5 class="card-title">Title</h5>
+        <textarea class="form-control" aria-label="With textarea"></textarea>
+        <h5 class="card-title">Content</h5>
+        <textarea class="form-control" aria-label="With textarea"></textarea>
+        <a href="#" class="btn btn-primary">Create</a>
+      </div>
+    </div>
+  </body>
+</html>
