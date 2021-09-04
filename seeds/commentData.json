@@ -1,0 +1,12 @@
+[
+    {
+        "content": "I liked this post",
+        "user_id": 2,
+        "blogPost_id": 1
+    },
+    {
+        "content": "This is my first comment",
+        "user_id": 1,
+        "blogPost_id": 2
+    }
+]

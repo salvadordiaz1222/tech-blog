@@ -1,0 +1,12 @@
+[
+    {
+        "post_title": "example 1",
+        "content": "this is an example",
+        "user_id": 1
+    },
+    {
+        "post_title": "example 2",
+        "content": "this is an example of another post",
+        "user_id": 2
+    }
+]
