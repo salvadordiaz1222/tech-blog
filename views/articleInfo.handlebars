@@ -1,0 +1,19 @@
+  
+  <div>{{post_title}}</div>
+  <div>{{content}}</div>
+  <div>{{id}} {{user.name}}</div>
+
+  
+  {{#each comments as |comment| }}
+    <!-- The post of each author will be in this card-->
+    <div class="card main main--flex">
+      <div class="container card-header">
+        <div class="row">
+          <div class="col-sm">{{comment.content}}</div>
+            <div class="col-sm">{{comment.user.name}}</div>
+        </div>
+      </div>
+    </div>
+  {{/each}}
+
+  

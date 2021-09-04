@@ -1,0 +1,12 @@
+   {{#each articles as |article| }}
+    <!-- The post of each author will be in this card-->
+    <div class="card main main--flex">
+      <div class="container card-header">
+        <div class="row">
+          <div class="col-sm">{{article.id}} {{article.post_title}}</div>
+          <div class="col-sm">{{article.user.name}}</div>
+        </div>
+      </div>
+    </div>
+
+  {{/each}}
